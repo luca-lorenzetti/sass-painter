@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+// Size text
+@for $i from 1 through 11 {
+    .font-size-#{ ($i * 2) +18} {
+      font-size: ($i * 2) +18px;
+    }
+  }
+

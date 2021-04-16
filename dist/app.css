@@ -1,1 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+.font-size-20 {
+  font-size: 20px;
+}
+
+.font-size-22 {
+  font-size: 22px;
+}
+
+.font-size-24 {
+  font-size: 24px;
+}
+
+.font-size-26 {
+  font-size: 26px;
+}
+
+.font-size-28 {
+  font-size: 28px;
+}
+
+.font-size-30 {
+  font-size: 30px;
+}
+
+.font-size-32 {
+  font-size: 32px;
+}
+
+.font-size-34 {
+  font-size: 34px;
+}
+
+.font-size-36 {
+  font-size: 36px;
+}
+
+.font-size-38 {
+  font-size: 38px;
+}
+
+.font-size-40 {
+  font-size: 40px;
+}
+
+.btn {
+  border-radius: 16px;
+  color: #fff;
+  border: 2px solid #fff;
+  background-color: transparent;
+  outline: none;
+  margin: 10px;
+  padding: 10px 30px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+}
+.btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.btn-blue {
+  background-color: #1473e6;
+  border-color: #1473e6;
+}
+.btn-blue:hover {
+  background-color: #0d66d0;
+  border-color: #1473e6;
+  color: #fff;
+}
+
+header {
+  height: 78vh;
+  width: 100%;
+  background-image: url("https://cc-prod.scene7.com/is/image/CCProdAuthor/dt-ps-max-poster-image?$pjpeg$&jpegSize=300&wid=1440");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+header > .container {
+  width: 65%;
+  margin: 0 auto;
+}
+header > .container > * {
+  margin: 20px;
+  font-weight: bold;
+}

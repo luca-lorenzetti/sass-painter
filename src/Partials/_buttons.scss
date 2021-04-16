@@ -1,0 +1,32 @@
+// Buttons
+
+.btn{
+    border-radius: 16px;
+    color: #fff;
+    border: 2px solid #fff;
+    background-color: transparent;
+    outline: none;
+    margin: 10px;
+    padding: 10px 30px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+  
+    &:hover{
+      background-color: $mainButtonText;
+      color: #000;
+    }
+  }
+  
+  .btn-blue{
+      background-color: #1473e6;
+      border-color: #1473e6;
+  
+      &:hover{
+          background-color: #0d66d0;
+          border-color: #1473e6;
+          color: $mainButtonText;
+  
+      }
+  }
