@@ -12,3 +12,15 @@
     }
   }
 
+
+  .row{
+      display: flex;
+  }
+  .row-reverse{
+    flex-direction: row-reverse;
+}
+  .inner_row{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }

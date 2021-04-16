@@ -48,6 +48,24 @@
   font-size: 40px;
 }
 
+.row {
+  display: flex;
+}
+
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
+.inner_row {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
 .btn {
   border-radius: 16px;
   color: #fff;
@@ -93,4 +111,29 @@ header > .container {
 header > .container > * {
   margin: 20px;
   font-weight: bold;
+}
+
+main {
+  color: #2c2c2c;
+  width: 76%;
+  margin: 0 auto;
+}
+main > * {
+  margin: 50px;
+}
+main .title_main {
+  padding: 0 30px;
+  text-align: center;
+}
+main .title_main > * {
+  margin: 60px;
+}
+main .row > * {
+  margin: 0 30px;
+}
+main .row .inner_first > *, main .row .inner_second > * {
+  margin: 10px 0;
+}
+main .row .inner_first {
+  margin-top: -20px;
 }

@@ -1,0 +1,35 @@
+main{
+    color: $primaryText;
+    width: $wd-75;
+    margin: 0 auto;
+    
+
+
+    & > *{
+        margin: 50px;
+    }
+
+    .title_main{
+        padding: 0 30px;
+        text-align: center;
+
+        & > *{
+            margin: 60px
+        }
+    }
+    .row{
+
+        & > *{
+            margin: 0 30px;
+        }
+
+        .inner_first,.inner_second{
+            & > *{
+                margin: 10px 0;
+            }
+        }
+        .inner_first{
+            margin-top: -20px;
+        }
+    }
+}
